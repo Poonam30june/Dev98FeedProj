@@ -1,0 +1,29 @@
+p.center {
+  text-align: center;
+  color: red;
+}
+
+.feed-description {padding-left:5px;margin-left:5px;border-left:2px solid #eee;}
+.feed-lists {float: center;padding-left:1em;}
+.feed-item-image {max-width: 400px; max-height: 400px; float: center; margin-left: 10px; }
+
+.btn {float: center;padding-left:30em;}
+
+.mysite{
+    color:maroon;
+    background: beige;
+    vertical-align: baseline;
+    padding-left:120px;
+    padding-right:120px;
+}
+
+#text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
+
