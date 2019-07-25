@@ -88,6 +88,7 @@ class posts
                     /* place the description now */
                     $description = $feed[$x]['desc'];
                     $content = $feed[$x]['content'];
+                   
                     
                     // find the img
                     $has_image = preg_match('/<img.+src=[\'"](?P<src>.+?)[\'"].*>/i', $content, $image);
